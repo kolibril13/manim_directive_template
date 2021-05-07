@@ -11,7 +11,6 @@ Here is the directive example
             self.play(banner.create())
             self.play(banner.expand())
             self.wait()
-            self.play(Unwrite(banner))
 
 .. .. toctree::
 ..    :maxdepth: 2
