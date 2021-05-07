@@ -7,7 +7,7 @@ Here is the directive example
 
     class ManimCELogo(Scene):
         def construct(self):
-            banner = ManimBanner()
+            banner = ManimBanner().scale(0.5)
             self.play(banner.create())
             self.play(banner.expand())
             self.wait()
