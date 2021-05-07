@@ -1,0 +1,1 @@
+This is a template repo to use the manim directive

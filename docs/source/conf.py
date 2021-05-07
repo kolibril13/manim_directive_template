@@ -33,12 +33,12 @@ if os.environ.get("READTHEDOCS") == "True":
 
 # -- Project information -----------------------------------------------------
 
-project = 'manimplotlib'
-copyright = '2021, kolibril13'
+project = 'manim_directive_template'
+copyright = 'ManimCommunity'
 author = 'kolibril13'
 
 # The full version, including alpha/beta/rc tags
-release = '4/2021'
+release = '5/2021'
 
 
 # -- General configuration ---------------------------------------------------
@@ -71,7 +71,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-# html_title = f"Manimplotlib v{manim_rubikscube.__version__}"
+# html_title = f"Some nice title v{manim.__version__}"
 html_theme = 'furo'
 #html_logo = '_static/logo.png'
 
