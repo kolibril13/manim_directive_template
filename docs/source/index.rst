@@ -3,7 +3,7 @@
 
 Here is the directive example
 
-.. manim:: ConnectingMatplotlib
+.. manim:: ManimCELogo
 
     class ManimCELogo(Scene):
         def construct(self):
