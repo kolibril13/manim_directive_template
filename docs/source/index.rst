@@ -5,7 +5,7 @@ Here is the directive example
 
 .. manim:: ManimCELogo
 
-    class DarkThemeBanner(Scene):
+    class ManimCELogo(Scene):
         def construct(self):
             banner = ManimBanner()
             self.play(banner.create())
