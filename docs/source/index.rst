@@ -5,6 +5,7 @@ Here is the directive example
 
 .. manim:: ManimCELogo
 
+    import manim
     class ManimCELogo(Scene):
         def construct(self):
             banner = ManimBanner().scale(0.5)
