@@ -4,10 +4,6 @@
     }
 }
 
-a {
-    text-decoration: none;
-}
-
 .admonition-manim-example {
     padding: 0;
     display: flex;
@@ -15,14 +11,7 @@ a {
 }
 
 .admonition-manim-example p.admonition-title {
-    color: var(--color-admonition-title-text);
     margin: 0;
-    padding-left: .75rem;
-    line-height: 1;
-}
-
-.admonition-manim-example p.admonition-title:before {
-    content: none;
 }
 
 .admonition-manim-example .highlight-python {
@@ -31,7 +20,6 @@ a {
 
 .admonition-manim-example .highlight {
     border-radius: 0;
-    /* margin-top: 1rem; */
 }
 
 .admonition-manim-example .highlight pre {
@@ -42,7 +30,6 @@ a {
     width: 100%;
     padding: 8px 0;
     outline: 0;
-    line-height: 0;
 }
 
 .admonition-manim-example .manim-video {
@@ -72,14 +59,4 @@ a {
 /* yikes-ish attempt at bugfix for navbar on some browsers */
 .sidebar-tree a.internal.reference {
     display: table-cell;
-}
-
-:root {
-    --admonition-title-font-size: 1rem;
-    --color-admonition-title: #000000;
-    --color-admonition-title-text: #f0f0f0;
-    --color-admonition-title-background: #099999;
-    --color-link: #ffffff;
-    --color-link--hover: #ff00f2;
-    --icon-admonition-default: none;
 }
