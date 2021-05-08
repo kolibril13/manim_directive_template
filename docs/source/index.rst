@@ -4,6 +4,7 @@
 Here is the directive example
 
 .. manim:: ManimCELogo
+
     import pkg_resources
     version_num = pkg_resources.get_distribution("manim").version
     class ManimCELogo(Scene):
