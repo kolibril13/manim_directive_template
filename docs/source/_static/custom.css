@@ -76,10 +76,10 @@ a {
 
 :root {
     --admonition-title-font-size: 1rem;
-    --color-admonition-title: #FF5900;
-    --color-admonition-title-text: #FFCB6B;
-    --color-admonition-title-background: #263238;
-    --color-link: #FF5900;
-    --color-link--hover: #FF5900;
+    --color-admonition-title: #000000;
+    --color-admonition-title-text: #f0f0f0;
+    --color-admonition-title-background: #099999;
+    --color-link: #ffffff;
+    --color-link--hover: #ff00f2;
     --icon-admonition-default: none;
 }
