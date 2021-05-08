@@ -1,5 +1,4 @@
 sphinx==3.5.3
 furo==2021.3.20b30
 sphinx-copybutton
-manimpango
 manim==0.5.0
