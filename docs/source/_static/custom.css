@@ -60,3 +60,13 @@
 .sidebar-tree a.internal.reference {
     display: table-cell;
 }
+
+:root {
+    --admonition-title-font-size: 1rem;
+    --color-admonition-title: #000000;
+    --color-admonition-title-text: #d76666;
+    --color-admonition-title-background: #099999;
+    --color-link: #ffffff;
+    --color-link--hover: #ff00f2;
+    --icon-admonition-default: none;
+}
